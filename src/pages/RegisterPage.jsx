@@ -37,11 +37,11 @@ export default function RegisterPage() {
           <div className="grid grid-cols-2 gap-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1.5">First Name</label>
-              <input {...register('first_name', { required: true })} className="input" placeholder="Priya" />
+              <input {...register('first_name', { required: true })} className="input" placeholder="Saichand" />
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1.5">Last Name</label>
-              <input {...register('last_name', { required: true })} className="input" placeholder="Sharma" />
+              <input {...register('last_name', { required: true })} className="input" placeholder="Thokala" />
             </div>
           </div>
 
